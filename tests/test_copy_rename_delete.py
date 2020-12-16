@@ -21,7 +21,7 @@ def tree():
     work = Documents / "work"
     data = top / "data"
     notes = data / "notes"
-    work_files = [work / fn for fn in ("TODO.bak", "TODO.txt", "hints.txT", "lesson.txt")]
+    work_files = [work / fn for fn in ("TODO.bak", "TODO.txt", "hints.txt", "lesson.txt")]
     notes_files = [notes / "TODO.txt"]
     files = {"directories": [top, Documents, work, data, notes],
              "files": work_files + notes_files,
