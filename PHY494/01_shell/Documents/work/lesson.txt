@@ -1,0 +1,5 @@
+1. computers are tools
+2. the shell is powerful
+3. basic shell commands: pwd, cd, ls
+4. edit files with an editor (atom, vi or vim, emacs, ...)
+
