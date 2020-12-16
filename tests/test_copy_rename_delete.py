@@ -34,9 +34,9 @@ def test_top_dir(tree):
 
 def test_all_dirs(tree):
     for directory in tree["directories"]:
-        assert directory.is_dir(), f"Directory '{directory}' is missing"
+        assert directory.is_dir(), f"Directory '{directory}' is missing or not a directory!"
 
 def test_all_files(tree):
     for filepath in tree["files"]:
-        assert filepath.is_dir(), f"File '{filepath}' is missing"
+        assert filepath.is_file(), f"File '{filepath}' is missing or not a file!"
 
