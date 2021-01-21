@@ -1,12 +1,12 @@
-# test HW01: Copy Rename Delete
-# 4 points
+# test HW02: Copy Rename Delete
+# 10 points
 
 # NOTE: run from the top of the repository. The directory "PHY494" should
 #       be visible in the current directory when the tests are run.
 #
 #       On the command line:
 #
-#          cd hw01
+#          cd hw02
 #          pytest
 #
 #       should run all the tests in the hw01/tests directory.
