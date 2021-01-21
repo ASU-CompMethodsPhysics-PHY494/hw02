@@ -28,7 +28,9 @@ repository on GitHub to see results.
 Work through the [Copy, rename, delete:
 Activity](https://asu-compmethodsphysics-phy494.github.io/ASU-PHY494/2021/01/14/01_Unix_Shell/#activity-homework)
 **but work with the PHY494 directory in *this* repository**, i.e, you
-will work under `hw02/PHY494`. Some files and directories under `PHY494` are already present in the hw02 repository.
+will work under `hw02-USERNAME/PHY494` where USERNAME is your GitHub
+username. Some files and directories under `PHY494` are already
+present in the hw02 repository.
 
 To be clear, all steps that are needed to complete the homework are
 shown here:
@@ -39,7 +41,7 @@ shown here:
 3. Make a directory `notes` under the `data` directory: You should now
    have a directory tree similar to
 
-        hw02/PHY494/01_shell/
+        hw02-USERNAME/PHY494/01_shell/
                           Documents/
                                     work/
                                          TODO.txt
@@ -56,7 +58,7 @@ shown here:
    hints.txt file. Save and exit.
 7. Make a copy of your `notes` directory in your work directory:
 
-        hw02/PHY494/01_shell/
+        hw02-USERNAME/PHY494/01_shell/
                           Documents/
                                     work/
                                          TODO.txt
@@ -76,14 +78,14 @@ shown here:
 
 
 After you completed the activity you should end up with a specific
-directory structure under `./hw02/PHY494/01_shell`, which will be
+directory structure under `./hw02-USERBAME/PHY494/01_shell`, which will be
 tested.
 
 
 
 ## 2.2 (OPTIONAL) "In the beginning was the command line"
 
-(Skim)read Neal Stephenson’s **In the Beginning was the command line**
+(Skim)read Neal Stephenson’s **In the Beginning... was the Command Line**
 from 1999
 ([PDF](https://becksteinlab.physics.asu.edu/file_download/7/NealStephenson_Commandline.pdf?mimetype=pdf)). What
 are the advantages and disadvantages of using the command line instead
