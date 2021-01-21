@@ -49,14 +49,14 @@ shown here:
                           data/
                               notes/
 
-   Check with `ls -R ~/PHY494`.
+   Check with `ls -R`.
 4. Put a copy of `TODO.txt` into the `notes` directory (using `cp`).
 5. Create a new text file `data/notes/hints.txt` and write any
    [hints](https://en.wikipedia.org/wiki/Ice_planet)  for possible
    rebel bases into this file.
-6. Open `TODO.txt` in `atom` and add a note to item 1 too look in the
+6. Open `notes/TODO.txt` in your editor (e.g., `atom`) and add a note to item 1 too look in the
    hints.txt file. Save and exit.
-7. Make a copy of your `notes` directory in your work directory:
+7. Make a copy of your `notes` directory in your `Documents/work` directory:
 
         hw02-USERNAME/PHY494/01_shell/
                           Documents/
