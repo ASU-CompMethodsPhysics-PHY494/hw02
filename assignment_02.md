@@ -26,16 +26,59 @@ repository on GitHub to see results.
 ## 2.1 Copy, rename, delete (10 points)
 
 Work through the [Copy, rename, delete:
-Activity](https://asu-compmethodsphysics-phy494.github.io/ASU-PHY494/2021/01/14/01_Unix_Shell/#activity-homework).
+Activity](https://asu-compmethodsphysics-phy494.github.io/ASU-PHY494/2021/01/14/01_Unix_Shell/#activity-homework)
+**but work with the PHY494 directory in *this* repository**, i.e, you
+will work under `hw02/PHY494`. Some files and directories under `PHY494` are already present in the hw02 repository.
 
-After you completed the activity (points 1 – 11) you should end up
-with a specific directory structure under `~/PHY494/01_shell`.
+To be clear, all steps that are needed to complete the homework are
+shown here:
+
+1. Make a backup (call it `TODO.bak`) of the `TODO` list with the `cp`
+   command (in the same directory as the original `TODO` file).
+2. Rename `TODO` to `TODO.txt` with the `mv` command.
+3. Make a directory `notes` under the `data` directory: You should now
+   have a directory tree similar to
+
+        hw02/PHY494/01_shell/
+                          Documents/
+                                    work/
+                                         TODO.txt
+                                         TODO.bak
+                          data/
+                              notes/
+
+   Check with `ls -R ~/PHY494`.
+4. Put a copy of `TODO.txt` into the `notes` directory (using `cp`).
+5. Create a new text file `data/notes/hints.txt` and write any
+   [hints](https://en.wikipedia.org/wiki/Ice_planet)  for possible
+   rebel bases into this file.
+6. Open `TODO.txt` in `atom` and add a note to item 1 too look in the
+   hints.txt file. Save and exit.
+7. Make a copy of your `notes` directory in your work directory:
+
+        hw02/PHY494/01_shell/
+                          Documents/
+                                    work/
+                                         TODO.txt
+                                         TODO.bak
+                                         notes/
+                                              TODO.txt
+                                              hints.txt
+                          data/
+                              notes/
+                                    TODO.txt
+                                    hints.txt
+
+8. Remove `data/notes/hints.txt` with `rm`.
+9. Remove `data/notes` with `rmdir`. (Hint: Read the error message!)
+10. Move `work/notes/hints.txt` into the `work` directory.
+11. Remove the useless `work/notes` directory with `rm -r` (careful !)
 
 
+After you completed the activity you should end up with a specific
+directory structure under `./hw02/PHY494/01_shell`, which will be
+tested.
 
-Note that this exercise builds on previous parts of [01 The Unix
-Shell](https://asu-compmethodsphysics-phy494.github.io/ASU-PHY494/2021/01/14/01_Unix_Shell/),
-which you should have also done).
 
 
 ## 2.2 (OPTIONAL) "In the beginning was the command line"
